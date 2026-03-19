@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background-image: url(image1.jpg);
+    background-position: center;  
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    display: flex;
+    color:aliceblue;
+}
+
+.logo{
+    margin-top:40px;
+    margin-left: 80px;
+    color:orange;
+    font-size: 50px;
+}
