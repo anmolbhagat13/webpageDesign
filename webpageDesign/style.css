@@ -43,6 +43,7 @@ body {
 .search input {
     background: transparent;
     font-weight: bold;
+    border: 1px solid rgb(222, 145, 2);
 }
 
 #btn {
