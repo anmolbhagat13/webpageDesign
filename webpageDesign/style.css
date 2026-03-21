@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,18 +10,20 @@ body {
     background-image: url("./image1.jpg");
     background-size: cover;
     color: white;
+    height: 100vh;
+    width: 100vw;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px 5vw;
+    padding: 20px 5vw;
     align-items: center;
 }
 
 .logo {
     font-size: 40px;
-    color: rgb(222, 145, 2);
+    color: rgb(198, 129, 1);
     font-weight: bold;
 }
 
@@ -28,26 +33,80 @@ body {
 }
 
 .navbar ul li {
-    padding: 0px 60px;
+    padding: 0px 80px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.navbar ul li:hover {
+    color: red;
 }
 
 .search {
-    border: 1px solid rgb(222, 145, 2);
     display: flex;
     gap: 0px;
-    height: 40px;
-
+    height: 50px;
+    border: 1px solid rgb(198, 129, 1);
+    border-radius: 13px 13px 13px 13px;
 }
 
 .search input {
+    outline: none;
+    padding: 0px 20px;
     background: transparent;
     font-weight: bold;
-    border: 1px solid rgb(222, 145, 2);
+    color: white;
+    width: 250px;
+    border: 1px solid rgb(198, 129, 1);
+    border-radius: 11px 0px 0px 11px;
 }
 
-#btn {
+.search input::placeholder {
+    color: white;
+}
+
+#btn1 {
     background-color: rgb(222, 145, 2);
     border: rgb(222, 145, 2);
+    border-radius: 0px 11px 11px 0px;
+    font-size: 18px;
+    font-weight: bold;
     color: white;
+    width: 90px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 100%; */
+
+    /* padding: 150px 0px 0px 120px; */
+}
+
+.heading {
+    padding: 90px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+}
+
+.info {
+    font-size: 25px;
+    font-family: serif;
+    line-height: 40px;
+}
+
+.joinus {
+    padding: 0px 0px 0px 0px;
+}
+
+#btn2 {
+    font-size: 25px;
+    border: rgb(198, 129, 1);
+    border-radius: 15px;
+    width: 230px;
+    height: 60px;
+    background-color: rgb(198, 129, 1);
 }
